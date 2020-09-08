@@ -1,0 +1,11 @@
+total 24
+-rw-r--r--  1 madalin  staff    0 Sep  8 16:35 1.txt
+-rw-r--r--  1 madalin  staff    0 Sep  8 05:49 1_pof
+-rw-r--r--  1 madalin  staff    0 Sep  8 16:35 2.txt
+-rw-r--r--  1 madalin  staff  505 Sep  8 16:34 _1.txt
+drwxr-xr-x  7 madalin  staff  224 Sep  7 19:09 folder
+-rwxr--r--  1 madalin  staff    0 Sep  8 05:46 hello.sh
+-rwxr-xr-x@ 1 madalin  staff  253 Sep  8 16:08 myscript.sh
+-rw-r--r--  1 madalin  staff    0 Sep  8 05:48 pof
+-rw-r--r--@ 1 madalin  staff    0 Sep  8 07:10 scripting.txt
+-rwxr-xr-x  1 madalin  staff  458 Sep  8 16:35 sect3.sh
