@@ -27,7 +27,6 @@ echo  "variable now is $number1"
 echo "--------------------------"
 echo "SHORT WAY OF OPERATING ON A VARIABLE"
 
-
 number1=10
 number1=$((number1 +3 ))
 echo "value=  $number1"
@@ -40,8 +39,3 @@ echo "$number1"
 
 
 echo " MULTIPLY: $(( number1*=10 ))"
-
-
-
-
-
