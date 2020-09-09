@@ -25,6 +25,13 @@ else
 	echo "$myfile is Not a Directory"
 fi
 
+### Regular File
+if [ -f $myfile ]; then
+	echo "$myfile is a Regular file !"
+	#open $myfile
+else
+	echo "$myfile is Not a Regular File"
+fi
 
 ### #File exists And is Readable
 if [ -r $myfile ]; then
