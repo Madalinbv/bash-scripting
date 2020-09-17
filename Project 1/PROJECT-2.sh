@@ -10,6 +10,7 @@ do
 		# search the content of the file for "spo"#
 
 		check=$(grep -ni "spo" "$myfile")
+		# check if the result of grep is empty#
 
 		if [ -z "$check" ]; then
 			echo "EMPTY"
