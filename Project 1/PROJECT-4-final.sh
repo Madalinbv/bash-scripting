@@ -25,6 +25,7 @@ if [ "$i" != "./hot-folder" ]; then
 				echo "HOT FILE!! FOUND!"
 
 				name_f=$(basename "$myfile")
+				#we take only the basename of the file using basename#
 
 				cp "$myfile" ./hot-folder/"$name_f"
 				echo "  " >> hot-folder/"$name_f"
