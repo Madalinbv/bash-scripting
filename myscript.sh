@@ -3,7 +3,7 @@
 echo hello this is my script
 echo "what is your name"
 read yourname
-echo "Hello $your ! Nice to meet you!"
+echo "Hello $yourname ! Nice to meet you!"
 sleep 3
 echo Bye Bye
 echo "----------"
