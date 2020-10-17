@@ -1,9 +1,13 @@
 #!/bin/bash
+#gets free space of root volume
 freespace=$(df -h / | grep -E "\/$" | awk '{print $4}')
+#formatting strings
 greentext="\033[32m"
 bold="\033[1m"
 normal="\033[0m"
+#current date
 logdate=$(date +"%Y%m%d")
+#generating the name of the file
 logfile="$logdate"_report.log
 
 echo -e $bold"Quick system report for "$greentext"$HOSTNAME"$normal
